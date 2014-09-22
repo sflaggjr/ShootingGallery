@@ -51,7 +51,6 @@
             <kind>1</kind>
             <string>draw_set_color(c_lime);
 draw_text(32, 736, "Bullets: " + string(obj_player.bullets));
-  
 </string>
           </argument>
         </arguments>

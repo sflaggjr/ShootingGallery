@@ -69,8 +69,13 @@ x += hsp;
 
 if key_shoot = true || gamepad_shoot = true
     {   
-        instance_create(x + 7, y - (sprite_height / 2), obj_bullet)
+        if bullets != 0
+        {
+            instance_create(x + 7, y - (sprite_height / 2), obj_bullet)
+            bullets -= 1;
+        }
     }
+    
 
 </string>
           </argument>
