@@ -24,10 +24,11 @@
   </objects>
   <timelines name="timelines"/>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\game_play</room>
+    <room>rooms\title</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41904.7282258681</constant>
+    <constant name="GM_build_date">41905.7062919329</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
