@@ -11,9 +11,14 @@
     <sprite>sprites\spr_target3</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_diamond</sprite>
+    <sprite>sprites\spr_title_1</sprite>
+    <sprite>sprites\spr_title_2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_gameplay</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_target</object>
@@ -21,11 +26,11 @@
     <object>objects\obj_controller</object>
     <object>objects\obj_smalltarget</object>
     <object>objects\obj_diamond</object>
+    <object>objects\obj_title_draw</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
-    <room>rooms\game_play</room>
     <room>rooms\title</room>
+    <room>rooms\game_play</room>
   </rooms>
   <constants number="2">
     <constant name="GM_build_date">41905.7062919329</constant>

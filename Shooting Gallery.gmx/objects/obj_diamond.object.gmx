@@ -80,6 +80,7 @@ move_speed = -5 + move_speed_mod;
           <argument>
             <kind>1</kind>
             <string>score += 10;
+obj_player.bullets += 1;
 </string>
           </argument>
         </arguments>
