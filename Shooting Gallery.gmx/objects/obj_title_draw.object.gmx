@@ -43,6 +43,8 @@
             <kind>1</kind>
             <string>draw_sprite(spr_title_1, 1, room_width / 2, room_height / 4);
 draw_sprite(spr_title_2, 1, room_width / 2, room_height / 3);
+draw_sprite(spr_target1, 1, room_width / 2, room_height / 2);
+
 </string>
           </argument>
         </arguments>
